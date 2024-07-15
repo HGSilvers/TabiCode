@@ -1,0 +1,73 @@
+.blogadminsubmit-container {
+    width: 800px;
+    padding: 25px 20px;
+    margin-top: 55px;
+    background: linear-gradient(to bottom, #681a63 0%, #3c1c65 62%, #312060 100%);
+    border-radius: 10px;
+    color: #f9fafd;
+}
+
+.blogadminsubmit-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.blogadminsubmit-picture-preview {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+
+.blogadminsubmit-picture {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border: 2px solid #3c1c65;
+}
+
+.blogadminsubmit-form-group {
+    margin-bottom: 22px;
+}
+
+.form-control {
+    background-color: #3c1c65;
+    border: 1px solid #5d4a6b;
+    color: #f9fafd;
+}
+
+.form-control:focus {
+    background-color: #312060;
+    color:#f9fafd;
+}
+
+.form-control::placeholder {
+    color: #b3b3b3;
+    opacity: 1;
+}
+
+label {
+    color: #f9fafd;
+}
+
+.blogadminsubmit-content {
+    height: 200px;
+}
+
+.blogadminsubmit-err-msg {
+    color: #ff6b6b;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.ck.ck-content {
+    color: black; 
+}
+
+.blog-post-submitted {
+    margin-top: 20px;
+    text-align: center;
+}
